@@ -1,9 +1,22 @@
 {
   "dependencies": {
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
     "mammoth": "^1.9.0",
     "natural": "^8.0.1",
     "path-browserify": "^1.0.1",
     "pdf-parse": "^1.1.1",
-    "stream-browserify": "^3.0.0"
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "webpack": "^4.47.0"
+  },
+  "browser": {
+    "assert": false,
+    "url": false,
+    "vm": false,
+    "stream": false
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
